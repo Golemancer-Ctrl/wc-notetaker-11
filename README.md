@@ -22,8 +22,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Description
 
-Over the course of this assignment I have picked up a better understanding of basic routing.  Though little is actively functional, the pacing of this camp demands that I move on.  In future development I intend to finish functionality of the interactive features.
+Over the course of this assignment I have picked up a better understanding of basic routing.
 
 ## Installation
+
+Go to the live site at [placeholder].
 
 ## Credits

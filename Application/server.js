@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const APIroutes = require('./routes/API-routes');
+const uuid = require('./helpers/uuid');
 
 const app = express();
 const PORT = 3001;
