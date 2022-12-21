@@ -22,10 +22,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Description
 
-Over the course of this assignment I have picked up a better understanding of basic routing.
+Over the course of this assignment I have picked up a better understanding of basic routing.  Unfortunately I am unable to get the hang of routing without an attached database.
 
 ## Installation
 
-Go to the live site at [placeholder].
+Go to the live site at [https://golemancer-ctrl.github.io/wc-notetaker-11/].
 
 ## Credits
