@@ -1,8 +1,12 @@
 const router = require('express').Router();
 const uuid = require('../helpers/uuid');
-// const db = require('../db/db.json');
+const db = require('../db/db.json');
 const fs = require('fs');
 // const path = require('path');
+
+router.get('/notes', (req, res) => {
+  res.json(db);
+})
 
 router.post('/notes', (req, res) => {
   const {title, text} = req.body;
@@ -32,7 +36,6 @@ router.post('/notes', (req, res) => {
     )
   }
 );
-
 
 router.delete('/notes/:id', (req, res) => {
   const notesIndex = getIndexById(req.params.id, notes);
